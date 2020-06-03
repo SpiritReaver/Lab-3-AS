@@ -16,6 +16,8 @@ public class CompetitorDTO {
     
     private String surname;
     
+    private String password;
+    
     private int age;
     
     private String telephone;
@@ -49,6 +51,15 @@ public class CompetitorDTO {
         this.surname = surname;
     }
 
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
+    
+   
     public int getAge() {
         return age;
     }
